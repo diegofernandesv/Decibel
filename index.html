@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Decibel Meter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="meter-container">
+        <div class="scale">
+            <span>130</span>
+            <span>120</span>
+            <span>110</span>
+            <span>100</span>
+            <span>90</span>
+            <span>80</span>
+            <span>70</span>
+            <span>60</span>
+            <span>50</span>
+            <span>40</span>
+            <span>30</span>
+            <span>20</span>
+            <span>10</span>
+        </div>
+        <div class="meter">
+            <div class="level" id="level"></div>
+        </div>
+        <div class="info">
+            <div class="icon" id="settings">⚙️</div>
+            <div>AVG <br><span id="avg">0.0</span></div>
+            <div>MAX<br><span id="max">0.0</span></div>
+            <div class="icon" id="stop">❌</div>
+            <div class="icon" id="pause">⏸</div>
+        </div>
+    </div>
+    <div class="environment">
+        <span id="environment-text">SIUUUUUUUU</span>
+    </div>
+    <div class="decibel-display">
+        <span id="current-decibels">0 dB</span>
+    </div>
+    <button id="start-button">START METER</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
